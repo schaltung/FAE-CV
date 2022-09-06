@@ -1,0 +1,18 @@
+#
+# Must use docker-compose version > 1.29 or preferably Compose V2.
+#
+# Define these variable by creating a `.env` file:
+#   - PATH_CORPORA
+#   - PORT_JUPY
+#
+version: "3.8"
+services:
+  FAECV:
+    build: ./docker/
+    image: fae_cv
+    network_mode: host
+    volumes:
+      - ${PATH_CORPORA}:/corpora:ro
+    ports:
+      - ${PORT_JUPY}:8888 # jupyter notebook.
+    restart: always

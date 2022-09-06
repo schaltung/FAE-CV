@@ -1,0 +1,14 @@
+RANDOM_STATE: 42
+data:
+  CORPUS_NAME: cv-corpus-10.0-2022-07-04
+  LANGUAGE: en
+  DIR_CORPORA: /corpora
+  COMMON_VOICE_URL: https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-10.0-2022-07-04/cv-corpus-10.0-2022-07-04-en.tar.gz
+  PATH_VALIDATED_TSV: /corpora/cv-corpus-10.0-2022-07-04/en/validated.tsv
+  PATH_MAPPING_TSV: ../data/mappings-accents_cv-corpus-10.0-2022-07-04_en_v2209.tsv
+tgt_stats:
+  MIN_NR_SPK: 65
+  SAMPLES_PER_SPKR: 4
+  MAX_NUM_SPKRS: 500
+  DUR_CUT_OFF_Q: 0.995
+  HALF_MAX_NUM_SPKRS: 250
