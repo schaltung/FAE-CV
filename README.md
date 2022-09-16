@@ -59,3 +59,11 @@ Find the corresponding access token in the container logs:
 docker-compose -p fae$USER logs
 ```
 
+
+## Sample visualization of the Accents-Embedding space.
+
+Follow the [FAE/CV22](https://github.com/schaltung/NeMo/blob/fae/cv22/tutorials/speaker_tasks/FAE_Speaker_Accent_Classification.ipynb) recipe to duplicate the visualization below.
+
+![](accentEmbeddings.gif)
+
+
