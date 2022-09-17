@@ -9,10 +9,17 @@ version: "3.8"
 services:
   FAECV:
     build: ./docker/
-    image: fae_cv
+    image: mozilla/cv/fae
     network_mode: host
     volumes:
       - ${PATH_CORPORA}:/corpora:ro
     ports:
       - ${PORT_JUPY}:8888 # jupyter notebook.
     restart: always
+
+#
+# Example of .env file:
+#$ cat .env
+#PATH_CORPORA=/n/corpora/OpenSLR/CommonVoice
+#PORT_JUPY=0  # 0 picks random port
+#
