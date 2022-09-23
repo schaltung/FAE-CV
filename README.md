@@ -67,3 +67,8 @@ Follow the [FAE/CV22](https://github.com/schaltung/NeMo/blob/fae/cv22/tutorials/
 ![](accentEmbeddings.gif)
 
 
+## References
+<a id="1">[1]</a> 
+Ardila R, Branson M, Davis K, Henretty M, Kohler M, Meyer J, Morais R, Saunders L, Tyers FM, Weber G.  (2019). 
+Common voice: A massively-multilingual speech corpus.
+arXiv preprint arXiv:1912.06670. 2019 Dec 13.
